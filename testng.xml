@@ -1,10 +1,70 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
 <suite name="Suite">
-  <test thread-count="5" name="Test1">
+  <test thread-count="5" name="Test">
     <classes>
-      <class name="testcases.TC02_CreateNewContact"/>
-      <class name="testcases.TC03_CreateNewCustomer"/>
+      <class name="testcases.Instrument_TC01_ProductHomePageVerification"/>
+      <class name="testcases.PortAcct_TC02_CreateNewOfficialAccount"/>
+      <class name="testcases.LegalEntity_TC08_CreateAddressFromCustomer"/>
+      <class name="testcases.LegalEntity_TC12_VerifyExportAll_ContOrgaCustDetailPage"/>
+      <class name="testcases.Email_TC01_NewEmail"/>
+      <class name="testcases.LegalEntity_TC03_NewDocumentFromContact"/>
+      <class name="testcases.PortAcct_TC03_CreateNewOffBookAccount"/>
+      <class name="testcases.Activity_TC02_CreateNewCall"/>
+      <class name="testcases.LegalEntity_TC09_CreatePhoneFromCustomer"/>
+      <class name="testcases.Employee_TC01_CreateNewEmployee"/>
+      <class name="testcases.LegalEntity_TC04_LinkDocumentFromContact"/>
+      <class name="testcases.IPS_TC01_IPSHomePageVerification"/>
+      <class name="testcases.Activity_TC06_CreateNewMailingPage"/>
+      <class name="testcases.LegalEntity_TC02_CreateNewOrganization"/>
+      <class name="testcases.LegalEntity_TC16_AddRiskProfileForContact"/>
+      <class name="testcases.PortAcct_TC01_CreateNewPortfolio"/>
+      <class name="testcases.Transaction_TC02_CreateCashWithdrawal"/>
+      <class name="testcases.Activity_TC07_ActivityHomePage"/>
+      <class name="testcases.SetupMenu_TC07_NewBenchmark"/>
+      <class name="testcases.LegalEntity_TC10_CreateFaxFromCustomer"/>
+      <class name="testcases.LegalEntity_TC01_CreateNewContact"/>
+      <class name="testcases.Location_TC02_EditLocationDetails"/>
+      <class name="testcases.Position_TCO1_PositionHomePageVerification"/>
+      <class name="testcases.LegalEntity_TC11_CreateEmailFromCustomer"/>
+      <class name="testcases.Campaign_TC01_CreateNewCampaign"/>
+      <class name="testcases.Admin_TC03_LoadErrorSummary"/>
+      <class name="testcases.Transaction_TC01_CreateCashDeposit"/>
+      <class name="testcases.Transaction_TC03_CreateBuyTransaction"/>
+      <class name="testcases.Campaign_TC02_LinkMultipleOpportunityWithCampaign"/>
+      <class name="testcases.LegalEntity_TC07_CreateProposalFromContact"/>
+      <class name="testcases.LegalEntity_TC14_CreateNewPortfolioFromOrga"/>
+      <class name="testcases.Admin_TC01_DataAdministration"/>
+      <class name="testcases.Email_TC02_EmailHomePageVerification"/>
+      <class name="testcases.Activity_TC03_CreateNewNote"/>
+      <class name="testcases.Opportunity_TC02_LinkOpportunityContact"/>
+      <class name="testcases.Employee_TC02_UpdateEmployeeDetails"/>
+      <class name="testcases.LegalEntity_TC05_CreateNewCustomer"/>
+      <class name="testcases.Alert_TC01_CreateNewAlert"/>
+      <class name="testcases.SetupMenu_TC01_ClientReportPackage"/>
+      <class name="testcases.SetupMenu_TC03_General"/>
+      <class name="testcases.Activity_TC08_ActivityEditPage"/>
+      <class name="testcases.PortAcct_TC04_LinkContactFromAccount"/>
+      <class name="testcases.Proposal_TC02_AddConstraintToProposal"/>
+      <class name="testcases.Model_TC01_CreateNewModel"/>
+      <class name="testcases.Proposal_TC01_CreateNewProposal"/>
+      <class name="testcases.SetupMenu_TC04_IndicatorType"/>
+      <class name="testcases.BusinessUnit_TC01_CreateNewBusinessUnit"/>
+      <class name="testcases.Activity_TC05_CreateNewServiceRequestPage"/>
+      <class name="testcases.Activity_TC01_CreateNewTask"/>
+      <class name="testcases.Activity_TC04_CreateNewMeeting"/>
+      <class name="testcases.BusinessUnit_TC02_UpdateBusinessUnit"/>
+      <class name="testcases.SetupMenu_TC02_Categories"/>
+      <class name="testcases.LegalEntity_TC15_CreateRelatedCompanyFromOrga"/>
+      <class name="testcases.LegalEntity_TC13_CreateNewAccountFromOrga"/>
+      <class name="testcases.Location_TC01_CreateNewLocation"/>
+      <class name="testcases.Opportunity_TC01_CreateNewOpportunity"/>
+      <class name="testcases.Admin_TC02_SystemParameters"/>
+      <class name="testcases.Transaction_TC04_CreateSellTransaction"/>
+      <class name="testcases.Document_TC01_CreateDocument"/>
+      <class name="testcases.Instrument_TC02_NewProductCreation"/>
+      <class name="testcases.LegalEntity_TC06_QuickSearch"/>
+      <class name="testcases.Document_TC02_DocumentUpdate"/>
     </classes>
-  </test> <!-- Test1 -->
+  </test> <!-- Test -->
 </suite> <!-- Suite -->
