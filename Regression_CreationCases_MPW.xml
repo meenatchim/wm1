@@ -1,0 +1,51 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.Order_TC03_CreateFundOrder"/>
+      <class name="testcases.PortAcct_TC02_CreateNewOfficialAccount"/>
+      <class name="testcases.Login_TC01"/>
+      <class name="testcases.Email_TC01_NewEmail"/>
+      <class name="testcases.LegalEntity_TC03_NewDocumentFromContact"/>
+      <class name="testcases.PortAcct_TC03_CreateNewOffBookAccount"/>
+      <class name="testcases.SetupMenu_TC01_ClientReportPackage"/>
+      <class name="testcases.Activity_TC02_CreateNewCall"/>
+      <class name="testcases.SetupMenu_TC03_General"/>
+      <class name="testcases.Employee_TC01_CreateNewEmployee"/>
+      <class name="testcases.IPS_TC01_IPSHomePageVerification"/>
+      <class name="testcases.Activity_TC06_CreateNewMailingPage"/>
+      <class name="testcases.LegalEntity_TC02_CreateNewOrganization"/>
+      <class name="testcases.Model_TC01_CreateNewModel"/>
+      <class name="testcases.Order_TC02_CreateNewFixedIncomeOrder"/>
+      <class name="testcases.PortAcct_TC01_CreateNewPortfolio"/>
+      <class name="testcases.Proposal_TC01_CreateNewProposal"/>
+      <class name="testcases.OrderWorksheet_TC03_CreateRebalanceWorksheet"/>
+      <class name="testcases.Transaction_TC02_CreateCashWithdrawal"/>
+      <class name="testcases.Order_TC01_CreateNewEquityOrder"/>
+      <class name="testcases.BusinessUnit_TC01_CreateNewBusinessUnit"/>
+      <class name="testcases.Activity_TC05_CreateNewServiceRequestPage"/>
+      <class name="testcases.Activity_TC01_CreateNewTask"/>
+      <class name="testcases.Activity_TC04_CreateNewMeeting"/>
+      <class name="testcases.SetupMenu_TC05_IPS"/>
+      <class name="testcases.LegalEntity_TC01_CreateNewContact"/>
+      <class name="testcases.OrderWorksheet_TC01_CreateManualWorksheet"/>
+      <class name="testcases.Position_TCO1_PositionHomePageVerification"/>
+      <class name="testcases.SetupMenu_TC02_Categories"/>
+      <class name="testcases.Location_TC01_CreateNewLocation"/>
+      <class name="testcases.Campaign_TC01_CreateNewCampaign"/>
+      <class name="testcases.Admin_TC03_LoadErrorSummary"/>
+      <class name="testcases.Transaction_TC01_CreateCashDeposit"/>
+      <class name="testcases.Opportunity_TC01_CreateNewOpportunity"/>
+      <class name="testcases.Transaction_TC03_CreateBuyTransaction"/>
+      <class name="testcases.SetupMenu_TC06_IPSconstraints"/>
+      <class name="testcases.Admin_TC02_SystemParameters"/>
+      <class name="testcases.Transaction_TC04_CreateSellTransaction"/>
+      <class name="testcases.Instrument_TC02_NewProductCreation"/>
+      <class name="testcases.Admin_TC01_DataAdministration"/>
+      <class name="testcases.OrderWorksheet_TC02_CreateBulkBuyWorksheet"/>
+      <class name="testcases.Activity_TC03_CreateNewNote"/>
+      <class name="testcases.LegalEntity_TC05_CreateNewCustomer"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->

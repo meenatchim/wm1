@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite name="Suite">
+  <test thread-count="5" name="Test">
+    <classes>
+      <class name="testcases.Instrument_TC01_ProductHomePageVerification"/>
+      <class name="testcases.Model_TC04_ExportAssociatedPortfolios"/>
+      <class name="testcases.LegalEntity_TC08_CreateAddressFromCustomer"/>
+      <class name="testcases.LegalEntity_TC12_VerifyExportAll_ContOrgaCustDetailPage"/>
+      <class name="testcases.Model_TC02_UpdateAndActivateModel"/>
+      <class name="testcases.Order_TC04_EditEquityOrderAndPlace"/>
+      <class name="testcases.LegalEntity_TC09_CreatePhoneFromCustomer"/>
+      <class name="testcases.Activity_TC08_ActivityEditPage"/>
+      <class name="testcases.Proposal_TC02_AddConstraintToProposal"/>
+      <class name="testcases.Builder_TC01_ApplyModelInBuilderPage"/>
+      <class name="testcases.Order_TC07_EditPlacedEquityCFO"/>
+      <class name="testcases.Model_TC03_AddPortfoliosWithModel"/>
+      <class name="testcases.Activity_TC07_ActivityHomePage"/>
+      <class name="testcases.LegalEntity_TC10_CreateFaxFromCustomer"/>
+      <class name="testcases.Order_TC05_PlaceAndCancelFundOrder"/>
+      <class name="testcases.Location_TC02_EditLocationDetails"/>
+      <class name="testcases.BusinessUnit_TC02_UpdateBusinessUnit"/>
+      <class name="testcases.LegalEntity_TC15_CreateRelatedCompanyFromOrga"/>
+      <class name="testcases.LegalEntity_TC13_CreateNewAccountFromOrga"/>
+      <class name="testcases.LegalEntity_TC11_CreateEmailFromCustomer"/>
+      <class name="testcases.Instrument_TC03_EditProduct"/>
+      <class name="testcases.LegalEntity_TC07_CreateProposalFromContact"/>
+      <class name="testcases.LegalEntity_TC14_CreateNewPortfolioFromOrga"/>
+      <class name="testcases.Model_TC05_RebalancePortfolioFromModel"/>
+      <class name="testcases.Opportunity_TC02_LinkOpportunityContact"/>
+      <class name="testcases.Employee_TC02_UpdateEmployeeDetails"/>
+      <class name="testcases.Order_TC06_FillFixedIncomeOrder"/>
+      <class name="testcases.LegalEntity_TC06_QuickSearch"/>
+      <class name="testcases.Document_TC02_DocumentUpdate"/>
+    </classes>
+  </test> <!-- Test -->
+</suite> <!-- Suite -->
